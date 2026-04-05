@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secret Systems — We Build Digital Vaults</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== VAULT INTRO SEQUENCE ===== -->
+
+  <div id="vault-scene">
+
+```
+<!-- Background metal texture -->
+<div class="vault-bg"></div>
+
+<!-- Vault door assembly -->
+<div id="vault-wrapper">
+  <div id="vault-door-container">
+
+    <!-- The vault door (rotates open) -->
+    <div id="vault-door">
+      <!-- Decorative rings -->
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="ring ring-3"></div>
+
+      <!-- Handle / wheel -->
+      <div id="vault-handle">
+        <div class="spoke spoke-0"></div>
+        <div class="spoke spoke-1"></div>
+        <div class="spoke spoke-2"></div>
+        <div class="spoke spoke-3"></div>
+        <div class="spoke spoke-4"></div>
+        <div class="spoke spoke-5"></div>
+        <div class="hub"></div>
+      </div>
+
+      <!-- Locking bolts -->
+      <div class="bolt bolt-top"></div>
+      <div class="bolt bolt-right"></div>
+      <div class="bolt bolt-bottom"></div>
+      <div class="bolt bolt-left"></div>
+
+      <!-- Door label -->
+      <div class="door-label">
+        <span>SECRET</span>
+        <span>SYSTEMS</span>
+      </div>
+    </div><!-- /vault-door -->
+
+    <!-- Vault interior (revealed when door opens) -->
+    <div id="vault-interior">
+      <div class="interior-glow"></div>
+      <div class="interior-shelves">
+        <div class="shelf-line"></div>
+        <div class="shelf-line"></div>
+        <div class="shelf-line"></div>
+      </div>
+      <div class="interior-logo">
+        <span>S</span><span>S</span>
+      </div>
+    </div>
+
+  </div><!-- /vault-door-container -->
+
+  <!-- Vault frame / border -->
+  <div id="vault-frame">
+    <div class="frame-corner fc-tl"></div>
+    <div class="frame-corner fc-tr"></div>
+    <div class="frame-corner fc-bl"></div>
+    <div class="frame-corner fc-br"></div>
+    <div class="frame-bolt fb-t"></div>
+    <div class="frame-bolt fb-r"></div>
+    <div class="frame-bolt fb-b"></div>
+    <div class="frame-bolt fb-l"></div>
+  </div>
+</div><!-- /vault-wrapper -->
+
+<!-- Scroll hint -->
+<div id="scroll-hint">
+  <span class="sh-text">scroll to enter</span>
+  <div class="sh-arrow">↓</div>
+</div>
+
+<!-- Intro headline above vault -->
+<div id="vault-headline">
+  <p class="tagline">WE BUILD</p>
+  <h1>Digital<br /><em>Vaults</em></h1>
+  <p class="sub">Websites engineered with precision & secrecy</p>
+</div>
+```
+
+  </div><!-- /vault-scene -->
+
+  <!-- ===== MAIN SITE CONTENT (revealed after vault opens) ===== -->
+
+  <main id="main-content">
+
+```
+<!-- NAV -->
+<nav id="site-nav">
+  <div class="nav-logo">Secret Systems</div>
+  <ul class="nav-links">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get Access</a>
+</nav>
+
+<!-- HERO (inside the vault) -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">Est. 2024 — Digital Design Studio</div>
+    <h2 class="hero-title">Your website<br />should feel like<br /><em>a revelation.</em></h2>
+    <p class="hero-body">Secret Systems crafts high-conversion, unforgettable web experiences for companies that refuse to blend in. Strategy. Design. Code. All in-house.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Start a Project</a>
+      <a href="#work" class="btn-ghost">See Our Work →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-n">47+</span><span class="stat-l">Projects Delivered</span></div>
+      <div class="stat"><span class="stat-n">100%</span><span class="stat-l">Client Retention</span></div>
+      <div class="stat"><span class="stat-n">3x</span><span class="stat-l">Avg. Conversion Lift</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hv-card hv-c1">
+      <div class="hv-dot"></div>
+      <span>UI Design</span>
+    </div>
+    <div class="hv-card hv-c2">
+      <div class="hv-dot"></div>
+      <span>Development</span>
+    </div>
+    <div class="hv-card hv-c3">
+      <div class="hv-dot"></div>
+      <span>SEO & Speed</span>
+    </div>
+    <div class="hv-grid"></div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="section-header">
+    <span class="section-label">// 01 — Work</span>
+    <h2>Selected<br /><em>Projects</em></h2>
+  </div>
+  <div class="work-grid">
+    <article class="work-card wc-large">
+      <div class="wc-image" style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);">
+        <div class="wc-mockup">
+          <div class="mock-bar"></div>
+          <div class="mock-content">
+            <div class="mock-line ml-wide"></div>
+            <div class="mock-line ml-mid"></div>
+            <div class="mock-line ml-short"></div>
+          </div>
+        </div>
+      </div>
+      <div class="wc-info">
+        <span class="wc-tag">E-Commerce · 2024</span>
+        <h3>Noir Collective</h3>
+        <p>Full redesign driving 280% increase in online sales.</p>
+        <a href="#" class="wc-link">View Case →</a>
+      </div>
+    </article>
+    <article class="work-card">
+      <div class="wc-image" style="background: linear-gradient(135deg, #0d1f0d 0%, #1a3a1a 100%);">
+        <div class="wc-mockup">
+          <div class="mock-bar"></div>
+          <div class="mock-content">
+            <div class="mock-line ml-wide"></div>
+            <div class="mock-line ml-short"></div>
+          </div>
+        </div>
+      </div>
+      <div class="wc-info">
+        <span class="wc-tag">SaaS · 2024</span>
+        <h3>Helion Labs</h3>
+        <p>Brand identity + website launch.</p>
+        <a href="#" class="wc-link">View Case →</a>
+      </div>
+    </article>
+    <article class="work-card">
+      <div class="wc-image" style="background: linear-gradient(135deg, #1a1000 0%, #3a2800 100%);">
+        <div class="wc-mockup">
+          <div class="mock-bar"></div>
+          <div class="mock-content">
+            <div class="mock-line ml-wide"></div>
+            <div class="mock-line ml-mid"></div>
+          </div>
+        </div>
+      </div>
+      <div class="wc-info">
+        <span class="wc-tag">Hospitality · 2024</span>
+        <h3>Aurum Hotels</h3>
+        <p>Luxury booking experience redesign.</p>
+        <a href="#" class="wc-link">View Case →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-header">
+    <span class="section-label">// 02 — Services</span>
+    <h2>What We<br /><em>Unlock</em></h2>
+  </div>
+  <div class="services-list">
+    <div class="service-item">
+      <div class="si-num">01</div>
+      <div class="si-body">
+        <h3>Web Design & UI</h3>
+        <p>Pixel-perfect interfaces built for conversion. Every screen, every breakpoint, every micro-interaction considered.</p>
+      </div>
+      <div class="si-icon">⬡</div>
+    </div>
+    <div class="service-item">
+      <div class="si-num">02</div>
+      <div class="si-body">
+        <h3>Custom Development</h3>
+        <p>Hand-coded or CMS-powered. React, Next.js, Webflow, Shopify — we speak all dialects.</p>
+      </div>
+      <div class="si-icon">◈</div>
+    </div>
+    <div class="service-item">
+      <div class="si-num">03</div>
+      <div class="si-body">
+        <h3>Brand Identity</h3>
+        <p>Logos, type systems, color, motion — a complete visual language your company owns forever.</p>
+      </div>
+      <div class="si-icon">◉</div>
+    </div>
+    <div class="service-item">
+      <div class="si-num">04</div>
+      <div class="si-body">
+        <h3>SEO & Performance</h3>
+        <p>90+ Lighthouse scores. Core Web Vitals mastery. Organic traffic that compounds month over month.</p>
+      </div>
+      <div class="si-icon">⬙</div>
+    </div>
+    <div class="service-item">
+      <div class="si-num">05</div>
+      <div class="si-body">
+        <h3>Conversion Strategy</h3>
+        <p>Copy, layout, and funnel architecture working in concert. We engineer desire.</p>
+      </div>
+      <div class="si-icon">◆</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-header">
+    <span class="section-label">// 03 — Process</span>
+    <h2>How We<br /><em>Operate</em></h2>
+  </div>
+  <div class="process-steps">
+    <div class="ps-step">
+      <div class="ps-num">I</div>
+      <h3>Discovery</h3>
+      <p>We study your market, competitors, and customers obsessively before touching a design file.</p>
+    </div>
+    <div class="ps-connector"></div>
+    <div class="ps-step">
+      <div class="ps-num">II</div>
+      <h3>Strategy</h3>
+      <p>Site architecture, messaging hierarchy, and conversion flow — mapped before any pixels.</p>
+    </div>
+    <div class="ps-connector"></div>
+    <div class="ps-step">
+      <div class="ps-num">III</div>
+      <h3>Design</h3>
+      <p>High-fidelity mockups, design system, and motion specs. You see exactly what you're getting.</p>
+    </div>
+    <div class="ps-connector"></div>
+    <div class="ps-step">
+      <div class="ps-num">IV</div>
+      <h3>Build & Launch</h3>
+      <p>Precision development, QA across 20+ devices, then a coordinated launch day.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-text">
+      <span class="section-label">// 04 — Contact</span>
+      <h2>Ready to<br /><em>Get In?</em></h2>
+      <p>Tell us about your project. We'll respond within 24 hours with a strategy call invite.</p>
+      <div class="contact-details">
+        <div class="cd-item">
+          <span class="cd-label">Email</span>
+          <a href="mailto:hello@secretsystems.co">hello@secretsystems.co</a>
+        </div>
+        <div class="cd-item">
+          <span class="cd-label">Based In</span>
+          <span>Remote — Worldwide</span>
+        </div>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="handleForm(event)">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" placeholder="Your name" required />
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="your@email.com" required />
+      </div>
+      <div class="form-group">
+        <label>Company</label>
+        <input type="text" placeholder="Company name" />
+      </div>
+      <div class="form-group">
+        <label>Project Brief</label>
+        <textarea rows="4" placeholder="Tell us what you need..." required></textarea>
+      </div>
+      <button type="submit" class="btn-primary btn-full">Request Access →</button>
+      <p class="form-note" id="form-status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">Secret Systems</div>
+      <p>Building digital vaults for companies that mean business.</p>
+    </div>
+    <div class="footer-links">
+      <div class="fl-col">
+        <span class="fl-head">Studio</span>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+      </div>
+      <div class="fl-col">
+        <span class="fl-head">Connect</span>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter/X</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2024 Secret Systems. All rights reserved.</span>
+    <span>Privacy · Terms</span>
+  </div>
+</footer>
+```
+
+  </main><!-- /main-content -->
+
+  <script src="js/vault.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
